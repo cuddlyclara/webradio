@@ -28,3 +28,5 @@ services:
 ## Customization with Reverse Proxy
 
 You can also configure the webradio to only expose the port on `127.0.0.1` and use a reverse proxy for more advanced setups, such as enabling different paths or adding TLS support.
+
+[Docker Hub](https://hub.docker.com/r/cuddlyclara/webradio)
