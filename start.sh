@@ -1,7 +1,7 @@
 #!/bin/sh
 mpd --stdout --no-daemon &
 
-while ! nc -z localhost 6600; do
+until mpc status > /dev/null 2>&1; do
   sleep 1
 done
 
